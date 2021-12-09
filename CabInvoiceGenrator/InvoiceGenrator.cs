@@ -13,6 +13,7 @@ namespace CabInvoiceGenrator
         private readonly int COST_PER_TIME;
         private readonly double MINIMUM_FARE;
 
+
         public InvoiceGeneartor(RideType rideType)
         {
             this.rideType = rideType;
